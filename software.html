@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--
+	Interphase by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+	<head>
+		<style>html{visibility: hidden;opacity:0;}</style> <!-- Remove FOUC-->
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,700' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="images/m2.png"/>
+		<meta charset="UTF-8">
+		<title>mayhall group</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css?v=1.0" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<h1><ul>
+					<li><a href="index.html"><font color=#3ba666>mayhall group</font></a></li>
+					<li><a>|</a></li>
+					<li><a href="https://www.chem.indiana.edu/">Indiana University</a></li>
+			</ul></h1>
+			<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="people.html">People</a></li>
+						<li><a href="research.html">Research</a></li>
+						<li><a href="publications.html">Publications</a></li>
+						<li><a><a2 href="software.html">Software</a2></a></li>
+						<!--<li><a href="open_positions.html">Open Positions</a></li>-->
+					</ul>
+				</nav>
+			</header>
+
+		<section id="two" class="wrapper style2 align-center">
+			<div class="container">
+				<header>
+					<h2>Software</h2>
+					<h5>
+						We aim to make as much of the software we write as possible both open-source and easily accessible. Below, one can find 
+						<a href="https://github.com/mayhallgroup"> <u>github</u></a> repositories associated with different projects that are either underway,
+						or have been published. If the desired code can't be found, feel free to contact us. 
+					</h5>
+				</header>
+				<div class="row">
+					<section class="feature 4u 12u$(small)">
+						<!--<h3 class="title"><a href="https://github.com/mayhallgroup/adapt-vqe">ADAPT-VQE</a></h3>-->
+						<a class='button alt' href="https://github.com/nmayhall-vt/FermiCG">FermiCG</a>
+						<h3 class="title"></h3>
+						<h6>FermiCG ("Fermionic Course-Graining") is a code for computing high-accuracy electronic states for molecular systems in a tensor product state (TPS) basis. Unlike in the traditional Slater determinant basis, a TPS basis can be chosen such that each basis vector has a considerable amount of electron correlation already included. As a result, the exact wavefunction in this basis can be considerably more compact. This increased compactness comes at the cost of a significant increase in complexity for determining matrix elements. So far, we have implemented multiple approach for discovering highly accurate wavefunctions in this TPS basis. This package includes: 
+							The repository found contains the code used to generate the results for publications:
+              <div class="entry-content">
+							<ul>
+								<li><p><b>Generalization of the tensor product selected CI method for molecular excited states</b>
+									<br />
+									Nicole M. Braunscheidel, Vibin Abraham, Nicholas J. Mayhall
+									<br />
+									<i>Preprint</i>, (2023): 
+									<a href=https://arxiv.org/abs/2303.02232>preprint</a>
+									</p>
+								</li>
+                <li><p><b> Coupled electron pair-type approximations for tensor product state wavefunctions</b>
+									<br />
+									Vibin Abraham and Nicholas J. Mayhall
+									<br />
+									<i>Journal of Chemical Theory and Computation</i> 18, 4856  (2022): 
+									<a href=https://pubs.acs.org/doi/10.1021/acs.jctc.2c00589>article</a>
+									<a>|</a>
+									<a href=https://arxiv.org/abs/2206.02333>preprint</a>
+									</p>
+								</li>
+								<li><p><b>Selected Configuration Interaction in a Basis of Cluster State Tensor Products</b><br />
+									Vibin Abraham and Nicholas J. Mayhall 
+									<br />
+									<i>Journal of Chemical Theory and Computation</i>, 16, 6098-6113 (2020): 
+									<a href=https://pubs.acs.org/doi/10.1021/acs.jctc.0c00141>article</a>
+										<a>|</a>
+									<a href=https://arxiv.org/abs/2002.03107>preprint</a></p>
+                </li>
+							</ul>
+						</div>
+						</h6>
+					</section>
+					<section class="feature 4u 12u$(small)">
+						<!--<h3 class="title"><a href="https://github.com/mayhallgroup/adapt-vqe">ADAPT-VQE</a></h3>-->
+						<a class='button alt' href="https://github.com/mayhallgroup/adapt-vqe">ADAPT-VQE</a>
+						<h3 class="title"></h3>
+						<h6> This code uses uses PySCF for molecular integrals and OpenFermion for forming the fermion-qubit mapping. 
+							This is a noise free implementation which uses direct exponentiation of Pauli operators in the full Hilbert space. 
+							As such, the code is limited to about 6 spatial orbitals. 
+							For product form ansatze, an efficient recursive gradient algorithm is used for faster quasi-Newton optimization. 
+							The repository found contains the code used to generate the results for publications:
+						<div class="entry-content">
+							<ul>
+								<li><p><b>An adaptive variational algorithm for exact molecular simulations on a quantum computer</b><br />
+									Harper R. Grimsley, Sophia E. Economou, Edwin Barnes, N. J. Mayhall<br />
+									<i>Nature Communications</i>, 10, 3007, (2019): 
+									<a href=https://www.nature.com/articles/s41467-019-10988-2?utm_source=other_website&utm_medium=display&utm_content=leaderboard&utm_campaign=JRCN_2_LW_X-moldailyfeed&error=cookies_not_supported&code=55be89d0-c3c3-4c68-aee9-7424ed20999f>article</a>
+										<a>|</a>
+									<a href=https://arxiv.org/abs/1812.11173>preprint</a>
+									</p></li>
+							</ul>
+						</div>
+						</h6>
+					</section>
+					<section class="feature 4u$ 12u$(small)">
+						<a class='button alt' href="https://github.com/mayhallgroup/ctrlq">CtrlQ</a>
+						<!--<h3 class="title"><a href="6634_notes.pdf"></a></h3>-->
+						<h3 class="title"></h3>
+						<h6> 
+							CtrlQ is an open-source tool designed to simulate a gate-free state preparation on a Transmon qubit device using analog control pulses. 
+							The analog control pulses can be variationally shaped to drive an initial state to a target state in the framework of ctrl-VQE. 
+							In molecular systems, ctrl-VQE can be used to drive the initial Hartree Fock state to the full configuration interaction (FCI) state with substantial pulse duration speedups as compared to a gate-based compilation.
+							The control quantum program (CtrlQ) is written in python with bindings to C++ codes for highly efficient time-evolution of quantum systems either using an ordinary-differential-equation or the Suzuki-Trotter expansion.
+							The repository found contains the code used to generate the results for publications:
+						<div class="entry-content">
+							<ul>
+								<li><p><b>Gate-free state preparation for fast variational quantum eigensolver simulations: ctrl-VQE</b><br />
+									Oinam Romesh Meitei<sup>*</sup>, Bryan T. Gard<sup>*</sup>, George S. Barron, David P. Pappas, Sophia E. Economou, Edwin Barnes, Nicholas J. Mayhall
+									<br />
+									<i>Submitted</i>, (2020): 
+									<a href=https://arxiv.org/abs/2008.04302>preprint</a>
+									<sup>*</sup>Co-first authors
+									</p>
+								</li>
+
+							</ul>
+						</div>
+						</h6>
+					</section>
+				</div>
+				<div class="row">
+					<section class="feature 4u 12u$(small)">
+						<a class='button alt' href="https://github.com/mayhallgroup/psi4fockci">Fock Space CI (DETCI)</a>
+						<!--<h3 class="title"><a href="6634_notes.pdf"></a></h3>-->
+						<h3 class="title"></h3>
+						<h6> 
+						This code uses presents and interface to use the RAS-CI functionality of the DETCI module in PSI4 to create the target configuration spaces for the various Fock-CI methods. 
+						As a string-based implementation, this code is general for arbitrary numbers of spin-flips/IPs/EAs, but comes at the cost of a larger computational overhead, including
+						string based indexing, and full two-electron integral storage. This repository contains the code used to generate the results for publications:
+						<div class="entry-content">
+							<ul>
+									<li><p><b>A Combined Spin-Flip and IP/EA Approach for Handling Spin and Spatial Degeneracies: Application to Double Exchange Systems</b><br />
+										Shannon E. Houck, N. J. Mayhall<br />
+										<i>Journal of Chemical Theory and Computation</i>,  15, 2278-2290 (2019): 
+										<a href=https://pubs.acs.org/doi/abs/10.1021/acs.jctc.8b01268>article</a>
+										<a>|</a>
+										<a href=https://chemrxiv.org/articles/A_Combined_Spin-Flip_and_IP_EA_Approach_for_Handling_Spin_and_Spatial_Degeneracies_Application_to_Double_Exchange_Systems/7445939/1>preprint</a></p></li>
+
+							</ul>
+						</div>
+						</h6>
+					</section>
+
+
+
+					<section class="feature 4u 12u$(small)">
+						<a class='button alt' href="https://github.com/mayhallgroup/nbody_tucker">n-body Tucker</a>
+						<h3 class="title"></h3>
+						<h6> This code implements the n-body Tucker approach for isotropic Heisenberg spin Hamiltonians.
+							The repository found contains the code used to generate the results for publications:
+						<div class="entry-content">
+							<ul>
+								<li><p><b>Using higher-order singular value decomposition to define weakly coupled and strongly correlated cluster states: the n-body Tucker approximation</b><br />
+									N. J. Mayhall<br />
+									<i>Journal of Chemical Theory and Computation</i>,  13, 4818-4828, (2017): 
+									<a href=http://pubs.acs.org/doi/abs/10.1021/acs.jctc.7b00696>article</a></p></li>
+							</ul>
+						</div>
+						</h6>
+					</section>
+					<section class="feature 4u 12u$(small)">
+						<a class='button alt' href="https://github.com/mayhallgroup/PsiEmbed">PsiEmbed</a>
+						<h3 class="title"></h3>
+						<h6> This code implements the interface to both PSI4 and PySCF for performing WFT-in-DFT projection based embedding 
+							methods described in the following publications:
+						<div class="entry-content">
+							<ul>
+								<li><p><b>Simple and efficient truncation of virtual spaces in embedded wave functions via concentric localization</b><br />
+									Daniel Claudino, N. J. Mayhall<br />
+									<i>Journal of Chemical Theory and Computation</i>, 15, 6085-6096 (2019): 
+									<a href=http://dx.doi.org/10.1021/acs.jctc.9b00682>article</a>
+									<a>|</a>
+									<a href=https://chemrxiv.org/articles/Simple_and_Efficient_Truncation_of_Virtual_Spaces_in_Embedded_Wave_Functions_via_Concentric_Localization/8846108/2>preprint</a></p></li>
+								<li><p><b>Automatic Partition of Orbital Spaces Based on Singular Value Decomposition in the Context of Embedding Theories</b><br />
+									Daniel Claudino, N. J. Mayhall<br />
+									<i>Journal of Chemical Theory and Computation</i>,  15, 1053-1064 (2019): 
+									<a href=http://pubs.acs.org/doi/10.1021/acs.jctc.8b01112>article</a>
+									<a>|</a>
+									<a href=https://chemrxiv.org/articles/Automatic_Partition_of_Orbital_Spaces_Based_on_Singular_Value_Decomposition_in_the_Context_of_Embedding_Theories/7277045/2>preprint</a></p></li>
+
+							</ul>
+						</div>
+						</h6>
+					</section>
+				</div>
+				<footer>
+				</footer>
+			</div>
+		</section>
+	</body>
+</html>
+<footer id="footer2">
+	Mayhall Group <br> Department of Chemistry<br>Indiana University • Bloomington, IN 47401
+</footer>

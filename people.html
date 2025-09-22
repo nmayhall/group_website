@@ -6,6 +6,7 @@
 -->
 <html lang="en">
 	<head>
+		<style>html{visibility: hidden;opacity:0;}</style> <!-- Remove FOUC-->
 		<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,700' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="images/m2.png"/>
 		<meta charset="UTF-8">
@@ -20,123 +21,358 @@
 		<script src="js/init.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style.css?v=1.0" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-68693110-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
 	</head>
 	<body>
 
 		<!-- Header -->
-			<header id="header">
+		<header id="header">
 			<h1><ul>
 					<li><a href="index.html"><font color=#3ba666>mayhall group</font></a></li>
 					<li><a>|</a></li>
-					<li><a href="http://www.chem.vt.edu/">Virginia Tech</a></li>
-			</ul></h1>
+					<li><a href="https://www.chem.indiana.edu/">Indiana University</a></li>
+				</ul></h1>
 				<nav id="nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="news.html">News</a></li>
 						<li><a><a2 href="people.html">People</a2></a></li>
 						<li><a href="research.html">Research</a></li>
 						<li><a href="publications.html">Publications</a></li>
+						<li><a href="software.html">Software</a></li>
 						<!--<li><a href="open_positions.html">Open Positions</a></li>-->
-						<li><a href="virginia_tech.html">Virginia Tech</a></li>
 					</ul>
 				</nav>
-			</header>
+		</header>
 
-			<section id="main" class="wrapper">
-			<div class="container" style="clear:both;">
-				<header class="major">
-				<h2>People</h2>
-				<div class="container">
-					<p><span class="image fit  "><img src="images/people/group_photo_2016.jpg"/></span>
-
-				</div>
+		<section id="two" class="wrapper style2 align-center">
+			<div class="container">
+				<header>
+					<h2>People</h2>
+					<h5>
+					</h5>
 				</header>
-
-				<h2><b> Principal Investigator</b></h2>
-				<p><span class="image mobilesensitive"><img src="images/people/nick1.jpg"/></span>
-				<!--<p><img src="images/nick1.jpg" alt=""  width="250"/-->
-				<div class="container" style="padding-left:25%;">
-					<dl>
-						<b>Nicholas J. Mayhall</b>
-						<li> Postdoc: UC Berkeley</li>
-						<li> PhD: Indiana University, 2011</li>
-						<li> BS: University of Southern Indiana, 2006</li>
-						<li> Email: nmayhall@vt.edu</li>
-						<li><a href="CV.pdf">CV</a></li>
-						<li><a href="https://scholar.google.com/citations?user=X4it56UAAAAJ&hl=en">Google Scholar</a></li>
-					</dl>
-					</p>
+						<img class="image groupshot" src="images/people/group_photo_2025_aug.jpg" alt="" />
+						<!-- <img class="image groupshot" src="images/people/group_photo_2022_dec16.jpg" alt="" /> -->
+						<!--<img class="image groupshot" src="images/people/group_photo_2022_march.jpg" alt="" />-->
+						<!--<img class="image groupshot" src="images/people/group_photo_08-08-21_cropped.jpg" alt="" />-->
+						<!--<img class="image groupshot" src="images/people/group_photo_2020_aug.png" alt="" />-->
+						<h3 class="title">Mayhall Group, Aug 2025</h3>
+						<h5>
+						<ul>
+						</ul></p><br>
+						</h5>
+				<header>
+					<h2>Current group members</h2>
+					<h5>
+					</h5>
+				</header>
+				<div class="row">
+					<section class="feature 4u 12u$(small)">
+						<img class="image headshot" src="images/people/nick2.jpg" alt="" />
+						<h3 class="title">Nick Mayhall</h3>
+						<h5>
+						<ul>
+							<li> <b>Role: PI</b></li>
+							<li> Postdoc: UC Berkeley</li>
+							<li> PhD: Indiana University, 2011</li>
+							<li> BS: University of Southern Indiana, 2006</li>
+							<li> Email: nmayhall@iu.edu</li>
+							<li><a href="CV.pdf">CV</a></li>
+							<li><a href="https://scholar.google.com/citations?user=X4it56UAAAAJ&hl=en">Google Scholar</a></li>
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u 12u(small)">
+						<img class="image headshot" src="images/people/aaron1.jpg" alt="" />
+						<h3 class="title">Aarón Rodríguez Jiménez</h3>
+						<h5>
+						<ul>
+							<li> <b>Role: Postdoc</b></li>
+							<li> PhD: Donostia/Spain (Advisors: David Casanova and Eduard Matito) </li>
+							<li> Email: aarodr@iu.edu</li>
+							<li> Projects: Quantum Algorithms 
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u$ 12u(small)">
+						<img class="image headshot" src="images/people/arnab.jpg" alt="" />
+						<h3 class="title">Arnab Bachhar</h3>
+						<h5>
+						<ul>
+							<li> <b>Role: Grad Student</b></li>
+							<li> BS/MS: RKMV Belur/IIT Bombay </li>
+							<li> Email: arnab22@vt.edu</li>
+							<li> Projects: FermiCG 
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u 12u(small)">
+						<img class="image headshot" src="images/people/harjeet.jpg" alt="" />
+						<h3 class="title">Harjeet Singh</h3>
+						<h5>
+						<ul>
+							<li> <b>Role: Grad Student</b></li>
+							<li> BS/MS: U of Delhi/IIT Bombay </li>
+							<li> Email: harjeetsingh@vt.edu</li>
+							<li> Projects: FermiCG 
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u$ 12u$(small)">
+						<img class="image headshot" src="images/people/chinmay2.jpg" alt="" />
+						<h3 class="title">Chinmay Shrikhande</h3>
+						<h5>
+						<ul>
+							<li> <b>Role: Grad Student</b></li>
+							<li> BS/MS:  IIT Bombay</li>
+							<li> Email: chinmays@vt.edu</li>
+							<li> Projects: PauliOperators 
+						</ul></p><br>
+						</h5>
+					</section>
 				</div>
-			</div>
-
-			<div class="container" style="clear:both;">
-				<br><br>
-				<h2><b> Graduate Students</b></h2>
-
-				<div style="clear:both;">
-					<p><span class="image mobilesensitive"><img src="images/people/shaunak2.jpg"/></span>
-					<div class="container" style="padding-left:25%">
-						<dl>
-							<b>Shaunak Shaikh</b>
-							<li> BT: Institute of Chemical Technology (Mumbai)</li>
-							<li> Email: sshaun1@vt.edu</li>
-						</dl></p><br>
-					</div>
-				</div>
-
-				<div style="clear:both;">
-					<p><span class="image mobilesensitive"><img src="images/people/shannon2.jpg"/></span>
-					<div class="container" style="padding-left:25%">
-						<dl>
-							<b>Shannon Houck</b>
-							<li> BS: University of Richmond</li>
-							<li> Email: shouck@vt.edu</li>
-						</dl></p><br>
-					</div>
-				</div>
-
-				<div style="clear:both;">
-					<p><span class="image mobilesensitive"><img src="images/people/vibin2.jpg"/></span>
-					<div class="container" style="padding-left:25%">
-						<dl>
-							<b>Vibin Abraham</b>
+				<header>
+					<h2>Alumni</h2>
+					<h5>
+					</h5>
+				</header>
+				<div class="row">
+					<section class="feature 4u 12u(small)">
+						<img class="image headshot" src="images/people/kyle.jpg" alt="" />
+						<h3 class="title">Kyle Sherbert</h3>
+						<h5>
+						<ul>
+							<li> <b>Role: Postdoc</b></li>
+							<li> <b> Current position:</b> Assistant Prof. Holy Cross College at Notre Dame 
+							<li> PhD: U of North Texas (Advisor: Marco Nardelli)</li>
+							<li> MS: U of North Texas </li>
+							<li> Email: KSherbert@hcc-nd.edu</li>
+							<li> Projects: ctrl-VQE 
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u 12u$(small)">
+						<img class="image headshot" src="images/people/robert_smith2.jpg" alt="" />
+						<h3 class="title">Robert Smith</h3>
+						<h5>
+							<ul>
+								<li> <b>Role: Grad Student</b></li>
+								<li> BS: Virginia Tech </li>
+								<li> Email: robs84@vt.edu</li>
+								<li> Projects: Quantum embedding models
+							</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u$ 12u$(small)">
+						<img class="image headshot" src="images/people/nicole_braunscheidel_new.JPG" alt="" />
+						<h3 class="title">Nicole Braunscheidel</h3>
+						<h5>
+						<ul>
+							<li> <b>Role: Grad Student</b></li>
+							<li> <b> Current position:</b> ARC at VT 
+							<li> BS: Ohio Northern University </li>
+							<li> Email: nbraunsc@vt.edu</li>
+							<li> Projects: Fragmentation for spin qubits, Tensor product wavefunctions 
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u 12u$(small)">
+						<img class="image headshot" src="images/people/diksha.jpg" alt="" />
+						<h3 class="title">Diksha Dhawan</h3>
+						<h5>
+						<ul>
+							<li> <b>Role: Postdoc</b></li>
+							<li> <b> Current position:</b> Xanadu 
+							<li> PhD: U of Michigan (Advisor: Dominika Zgid)</li>
+							<li> MS: U of Hyderabad (Advisor: Durga Prasad)</li>
+							<li> Email: ddhawan@vt.edu</li>
+							<li> Projects: Variational quantum algorithms, ctrl-VQE
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u 12u$(small)">
+						<img class="image headshot" src="images/people/ayush.jpg" alt="" />
+						<h3 class="title">Ayush Asthana</h3>
+						<h5>
+						<ul>
+							<li> <b>Role: Postdoc</b></li>
+							<li> <b> Current position:</b> Assistant Professor at University of North Dakota
+							<li> PhD: Johns Hopkins University (Advisor: Lan Cheng)</li>
+							<li> MS: IIT Kanpur (Advisors: Debashis Mukherjee (IACS) and Srihari Keshavamurthy (IITK)) </li>
+							<li> Projects: VQAs
+							<li> <a href="https://und.edu/directory/ayush.asthana"> Link </a></li>
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u$ 12u$(small)">
+						<img class="image headshot" src="images/people/luke_bertels.jpg" alt="" />
+						<h3 class="title">Luke Bertels</h3>
+						<h5>
+						<ul>
+							<li> <b>Role: Postdoc</b></li>
+							<li> <b> Current position: </b> Wigner Fellow at Oakridge National Lab
+							<li> PhD: UC Berkeley (Advisor: Martin Head-Gordon)</li>
+							<li> BS: University of Chicago (Advisor: David Mazziotti)</li>
+							<li> Email: lwbertels@vt.edu</li>
+							<li> Projects: VQE algorithms
+							<li> <a href="https://www.ornl.gov/staff-profile/luke-w-bertels"> Link </a></li>
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u 12u$(small)">
+						<img class="image headshot" src="images/people/harper2.jpg" alt="" />
+						<h3 class="title">Harper Grimsley</h3>
+						<h5>
+						<ul>
+							<li> <b>Role: Grad Student</b></li>
+							<li> <b> Current position:</b> Postdoc with Francesco Evangelista at University of Emory 
+							<li> BS: University of Arkansas</li>
+							<li> Email: hrgrimsl@vt.edu</li>
+							<li> Projects: Variational quantum algorithms 
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u 12u$(small)">
+						<img class="image headshot" src="images/people/vibin2.jpg" alt="" />
+						<h3 class="title">Vibin Abraham</h3>
+						<h5>
+						<ul>
+							<li> <b>Role: Grad Student</b></li>
+							<li> <b>Current position:</b> Postdoc with Dominika Zgid at University of Michigan 
 							<li> MS: Indian Institute of Technology (Bombay)</li>
 							<li> Email: vibin1@vt.edu</li>
-						</dl></p><br>
-					</div>
+							<li> Projects: Tensor product wavefunctions, Singlet-fission, model Hamiltonians </li>
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u$ 12u$(small)">
+						<img class="image headshot" src="images/people/shannon2.jpg" alt="" />
+						<h3 class="title">Shannon Houck</h3>
+						<h5>
+						<ul>
+							<li> <b>Role: Grad Student</b></li>
+							<li> BS: University of Richmond</li>
+							<li> Email: shouck@vt.edu</li>
+							<li> Projects: Fock-space CI method development, model Hamiltonians, embedding </li> 
+							<li> <b>Current position:</b> QChem 
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u 12u$(small)">
+						<img class="image headshot" src="images/people/oinam_landscape.jpg" alt="" />
+						<h3 class="title">Oinam Meitei</h3>
+						<h5>
+						<ul>
+							<li> <b>Role: Postdoc</b></li>
+							<li> <b>Current position:</b> MIT (Van Voorhis group) 
+							<li> PhD: University of Erlangen-Nuremberg (Advisor: Andreas Hesselmann)</li>
+							<li> BS: University of Madras</li>
+							<li> Projects: Spin-orbit coupling, ctrl-VQE
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u 12u$(small)">
+						<img class="image headshot" src="images/people/daniel_claudino1_landscape.png" alt="" />
+						<h3 class="title">Daniel Claudino</h3>
+						<h5>
+							<ul>
+								<li> <b>Role: Postdoc</b></li>
+								<li> <b>Current position:</b> Research Scientist at Oakridge National Laboratory</li>
+								<li> PhD: University of Florida (Advisor: Rod Bartlett)</li>
+								<li> BS: University of Sao Paulo</li>
+								<li> Projects: Projection-embedding, VQE algorithms</li>
+								<li> <a href="https://www.ornl.gov/staff-profile/daniel-chaves-claudino">Link</a></li>
+							</ul></p><br>
+						</h5>
+					</section>
+					<!--
+						<section class="feature 4u 12u$(small)">
+						<img class="image headshot" src="images/people/hanna_cho.jpg" alt="" />
+						<h3 class="title">Hanna Cho</h3>
+						<h5>
+						<ul>
+							<li> <b>Role: MS Student</b></li>
+							<li> BS/MS: Seoultech </li>
+							<li> Email: chohnna@vt.edu</li>
+							<li> Projects: Singlet-fission 
+						</ul></p><br>
+						</h5>
+					</section>
+					-->
 				</div>
-
-				<div style="clear:both;"></div>
-
+				<header>
+					<h2>Old group photos</h2>
+					<h5>
+					</h5>
+				</header>
+				<div class="row">
+					<section class="feature 4u 12u$(small)">
+						<img class="image groupshot" src="images/people/group_photo_2022_dec16.jpg" alt="" />
+						<h5>
+						Dec 2022
+						<ul>
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u 12u$(small)">
+						<img class="image groupshot" src="images/people/group_photo_2022_march.jpg" alt="" />
+						<h5>
+						March 2022
+						<ul>
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u$ 12u$(small)">
+						<img class="image groupshot" src="images/people/group_photo_08-08-21_cropped.jpg" alt="" />
+						<h5>
+						August 2021
+						<ul>
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u 12u$(small)">
+						<img class="image oldgroupshot" src="images/people/group_photo_2020_aug.png" alt="" />
+						<h5>
+						Zoom, July 2020
+						<ul>
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u 12u$(small)">
+						<img class="image oldgroupshot" src="images/people/group_photo_2019_july29.jpg" alt="" />
+						<h5>
+						Nick's house, July 2019
+						<ul>
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u$ 12u$(small)">
+						<img class="image oldgroupshot" src="images/people/group_photo_2018_mellowmushroom.jpg" alt="" />
+						<h5>
+						Mellow Mushroom, Dec 2018
+						<ul>
+						</ul></p><br>
+						</h5>
+					</section>
+					<section class="feature 4u 12u$(small)">
+						<img class="image oldgroupshot" src="images/people/group_photo_2016.jpg" alt="" />
+						<h5>
+						Duck Pond, Oct 2016
+						<ul>
+						</ul></p><br>
+						</h5>
+					</section>
+				</div>
+				<footer>
+				</footer>
 			</div>
-			</section>
-			<!--
-			<section id="main" class="wrapper">
-			<h2>Principle Investigator</h2>
-			<p><span class="image left"><img src="images/nick1.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-			<p><span class="image right"><img src="images/pic09.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-			</section>
-			-->
+		</section>
+	</body>
+</html>
 
-			<!-- Footer -->
-		</body>
-	</html>
-
-	<footer id="footer2">
-	Mayhall Group <br> Department of Chemistry<br>Virginia Tech • Blacksburg, VA 24061
-	</footer>
+<footer id="footer2">
+	Mayhall Group <br> Department of Chemistry<br>Indiana University • Bloomington, IN 47401
+</footer>
